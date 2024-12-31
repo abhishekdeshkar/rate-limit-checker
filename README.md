@@ -32,13 +32,13 @@ npm install
 
 Run the script using Node.js with configurable command-line arguments. Below are the supported arguments:
 
-| Argument        | Alias   | Type   | Default | Description                                                                                 |
-|-----------------|---------|--------|---------|---------------------------------------------------------------------------------------------|
-| `--url`         | `-u`    | String | None    | The URL to send requests to (required).                                                    |
-| `--initialRate` | `-i`    | Number | 100     | The initial number of requests per second.                                                 |
-| `--increment`   | `--inc` | Number | 100     | The number of requests to add to the rate after each round if no rate limit is detected.    |
-| `--duration`    | `-d`    | Number | 10      | The duration of each test in seconds.                                                      |
-| `--help`        | `-h`    | -      | -       | Displays help information about the available arguments.                                   |
+| Argument        | Alias   | Type   | Default | Description                                                                       |
+|-----------------|---------|--------|---------|-----------------------------------------------------------------------------------|
+| `--url`         | `-u`    | String | None    | The URL to send requests to (required).                                          |
+| `--initialRate` | `-i`    | Number | 100     | The initial number of requests per second.                                       |
+| `--increment`   | `--inc` | Number | 100     | The number of requests to add to the rate after each round if no limit is found. |
+| `--duration`    | `-d`    | Number | 10      | The duration of each test in seconds.                                            |
+| `--help`        | `-h`    | -      | -       | Displays help information about the arguments.                                   |
 
 ### Example Command
 
