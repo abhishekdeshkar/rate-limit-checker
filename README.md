@@ -45,12 +45,12 @@ Run the script using Node.js with configurable command-line arguments. Below are
 To test a URL with an initial rate of 50 requests per second, incrementing by 100 requests every 10 seconds, run the following command:
 
 ```bash
-node index.js --url https://prod-api-backend.kgen.io/ --initialRate 50 --increment 100 --duration 10 
+node index.js --url https://kgen.io/ --initialRate 50 --increment 100 --duration 10 
 ```
 
 ### Explanation of Example Command
 
-- `--url https://prod-api-backend.kgen.io/`: Specifies the API endpoint to test.
+- `--url https://.kgen.io/`: Specifies the API endpoint to test.
 - `--initialRate 50`: Starts the test with 50 requests per second.
 - `--increment 100`: Adds 100 requests per second after each test round.
 - `--duration 10`: Each test round lasts for 10 seconds.
