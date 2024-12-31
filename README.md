@@ -87,7 +87,8 @@ Results for 150 RPS:
 - Rate-limited (429) responses: 20
 - Forbidden (403) responses: 0
 
-Rate limit or forbidden access detected! Test complete.```
+Rate limit or forbidden access detected! Test complete.
+```
 
 ### Features
 
